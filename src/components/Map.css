@@ -1,0 +1,53 @@
+
+.vessel-info {
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin: 0 auto 5vh auto; 
+    text-align: center; 
+    width: 800px;; 
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+  }
+  
+  /* for each section*/
+  .vessel-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 70px; 
+  }
+  
+  
+  .vessel-info p {
+    margin: 5px;
+  }
+  .vessel-info strong {
+    margin-bottom: 5px;
+  }
+  .vessel-info span{
+    margin: 5px;
+    font-weight: bold;
+  }
+  
+
+  .vessel-info strong {
+    font-weight: bold;
+  }
+  
+  
+  .vessel-info .speed {
+    color: blue;
+    font-weight: bold;
+  }
+  
+ 
+  .map-container {
+    height: 80vh;
+    width: 80%;
+    padding: 15px;
+    margin: 0 auto; 
+    box-sizing: border-box;
+  }
+  
